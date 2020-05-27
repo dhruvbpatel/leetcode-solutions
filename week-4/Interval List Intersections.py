@@ -52,7 +52,7 @@ class Solution:
 #                 else:
 #                     j+=1
                     
-#                 ans.append([max(a_min,b_min),min(a_max,b_max)])
+#                 ans.append([max(a_min,b_min),min(a_max,b_max)])   
 #         return ans
                         
                         
