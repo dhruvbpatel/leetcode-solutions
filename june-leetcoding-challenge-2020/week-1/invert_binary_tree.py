@@ -9,8 +9,8 @@ class Solution:
         if root is None:
             return None
         
-        left = self.invertTree(root.right)
-        right = self.invertTree(root.left)
+        left = self.invertTree(root.right) ## get left most element
+        right = self.invertTree(root.left) ## get right most element
         
         root.left =left
         root.right  = right
