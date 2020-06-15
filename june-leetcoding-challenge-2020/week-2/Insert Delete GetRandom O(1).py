@@ -52,7 +52,7 @@ class RandomizedSet:
 
 #         if val in self.d:
 #             del self.d[val]
-#             self.ind.remove(val)
+#             self.ind.remove(val)  2
 #             return True
 #         else:
 #             return False
